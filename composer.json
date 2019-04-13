@@ -1,0 +1,11 @@
+{
+	"name": "kilka",
+	"version": "1.0.0",
+    "require": {
+    	"monolog/monolog": "1.2.*",
+    	"izniburak/router": "^1",
+        "philo/laravel-blade": "3.*",
+        "catfan/medoo": "^1.6",
+        "morilog/jalali": "3.*"
+    }
+}
