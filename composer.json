@@ -1,11 +1,27 @@
 {
-	"name": "kilka",
-	"version": "1.0.0",
+    "name": "upux/kilka",
+    "type": "package",
+    "version": "1.0.0",
+    "description": "micro fw backend web",
+    "keywords": ["php","backend"],
+    "homepage": "https://github.com/upux/kilka",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ashkanfekri",
+            "email": "info@upux.ir",
+            "homepage": "http://upux.ir",
+            "role": "Developer"
+        }
+    ],
     "require": {
-    	"monolog/monolog": "1.2.*",
-    	"izniburak/router": "^1",
+        "php": ">=5.3.0",
+        "monolog/monolog": "1.2.*",
+        "izniburak/router": "^1",
         "philo/laravel-blade": "3.*",
         "catfan/medoo": "^1.6",
         "morilog/jalali": "3.*"
+    },
+    "autoload": {
     }
 }
